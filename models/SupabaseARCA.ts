@@ -1,4 +1,4 @@
-import apiSupabase from "@/backend-resources/models/supabase/apiSupabase";
+import apiSupabase from "@/backend-resources/lib/apiSupabase";
 import { obtieneAfipAccesoResponse } from "@/types/authTypes";
 
 export class SupabaseARCA {
