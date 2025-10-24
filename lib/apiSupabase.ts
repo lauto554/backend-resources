@@ -1,4 +1,6 @@
 import axios from "axios";
+import dotenv from "dotenv";
+dotenv.config();
 
 const apiSupabase = axios.create({
   baseURL: process.env.SUPABASE_URL,
